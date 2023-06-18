@@ -58,7 +58,7 @@ export default function IndexPage() {
           <Title
             text="lorem ipsum"
             level="h1"
-            className="title my-6 text-4xl font-bold uppercase leading-none lg:text-9xl "
+            className="title py-12 text-4xl font-bold uppercase leading-none lg:text-9xl "
           />
           <div className="grid grid-cols-1 justify-evenly gap-x-4 gap-y-10 lg:grid-cols-3">
             {data['top'].map((item, index) => (
@@ -101,7 +101,7 @@ export default function IndexPage() {
           <Title
             text="lorem ipsum dolor set"
             level="h2"
-            className="title my-6 w-3/4 text-4xl font-bold uppercase leading-none lg:text-9xl"
+            className="title my-6 text-4xl font-bold uppercase leading-none lg:text-9xl"
           />
           <div className="grid grid-cols-1 justify-evenly gap-x-4 gap-y-10 lg:grid-cols-3">
             {data['bottom'].map((item, index) => (

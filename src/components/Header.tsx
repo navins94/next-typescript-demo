@@ -37,7 +37,7 @@ const MENU_ITEMS = [
   },
 ];
 
-export default function Header() {
+const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
@@ -117,4 +117,6 @@ export default function Header() {
       </nav>
     </>
   );
-}
+};
+
+export default Header;

@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+      },
       animation: {
         marquee: 'marquee 20s linear infinite',
         marquee2: 'marquee2 20s linear infinite',

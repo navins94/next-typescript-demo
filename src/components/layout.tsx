@@ -6,10 +6,10 @@ type LayoutProps = {
   title?: string;
 };
 
-export default function Layout({
+const Layout = ({
   children,
   title = 'This is the default title',
-}: LayoutProps) {
+}: LayoutProps) => {
   return (
     <div>
       <Head>
@@ -21,4 +21,6 @@ export default function Layout({
       {children}
     </div>
   );
-}
+};
+
+export default Layout;
