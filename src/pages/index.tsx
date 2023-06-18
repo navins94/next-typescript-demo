@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
-import Layout from '@/components/layout';
 import Title from '@/components/Title';
+import Layout from '@/components/Layout';
 import ContentComponent from '@/components/ContentComponent';
 import Accordion from '@/components/Accordion';
 import Marquee from '@/components/Marquee';
