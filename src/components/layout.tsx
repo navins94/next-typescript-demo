@@ -5,11 +5,10 @@ type LayoutProps = {
   children: React.ReactNode;
   title?: string;
 };
-
-const Layout = ({
+const Layout: React.FC<LayoutProps> = ({
   children,
   title = 'This is the default title',
-}: LayoutProps) => {
+}) => {
   return (
     <div>
       <Head>
