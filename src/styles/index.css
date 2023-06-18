@@ -8,6 +8,23 @@ body {
   color: #fff;
   background-color: #000;
 }
+.scene {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.magic {
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  background: url('/assets/about-us.png') center center no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: -1;
+}
 
 @layer utilities {
   .container {
