@@ -3,3 +3,14 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-4;
+  }
+}
