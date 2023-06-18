@@ -1,7 +1,7 @@
-import { AppProps } from 'next/app'
+import { AppProps } from 'next/app';
 
-import '@/styles/index.css'
+import '@/styles/index.css';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
